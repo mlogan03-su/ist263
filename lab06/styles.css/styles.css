@@ -1,0 +1,9 @@
+body {
+    font-family: Arial;
+}
+ul, th, ul {
+   color:darkblue;
+}
+tr.evenrow {background-color: gray;}
+.h1{font-size:20 em;}
+.h2{font-size:16 em;}

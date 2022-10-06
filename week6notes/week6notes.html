@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 6 CSS Intro</title>
+        <!--this is an embedded sheet style-->
+        <style>
+            /* below we have a grouped selector */
+            p, ul {color:rgb(121, 121, 206);
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration:dashed
+            }
+            p a{
+                color:green;
+            }
+            #firstparagraph {
+                color:deeppink; 
+            }
+            .pinktext {color: pink;
+
+            }
+            a {
+                text-decoration: none /* taking away attributes such as underline*/
+            }
+        </style>
+    </head>
+    <body>
+        <a href="http://www.amazon.com">Amazon</a>
+        <!--id values must be unique, cannot have two that are the same on one page -->
+        <p id="firstparagraph">Lorem ipsum dolor, sit amet <a href="http://www.google.com"> Google</a> consectetur adipisicing elit. Fuga repudiandae aliquid voluptatibus similique ut natus rerum vitae. Officiis ab reiciendis dolor nam adipisci, ea, tenetur numquam exercitationem culpa ex nihil!</p>
+        <ul>
+            <li>green</li>
+            <li class="pinktext">purple</li>
+        </ul>
+        <p>Happy Tuesday in October!</p>
+        <p class="pinktext">Happy Halloween!</p>
+    </body>
+</html>
