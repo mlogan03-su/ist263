@@ -1,0 +1,58 @@
+body {
+    background-color: #000000;
+}
+p {
+    color: #FFFFFF;
+}
+a {
+    color: #FF006F;
+}
+a:hover {
+    color:#FFFFFF
+}
+a:visted {
+    color: #D8D8D8; 
+}
+h1, h2, caption {
+    color:#FF006F;
+}
+nav a {
+    color:#FF006F;
+}
+nav a:hover {
+    color: #fff538;
+}
+nav {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+ul {
+    color: #FFFFFF;
+}
+form, label, textarea, table, tr,td,th{ 
+    color: #FFFFFF;
+}
+tr.evenrow {
+    background-color: #696767
+}
+.quote {
+    float:right;
+}
+footer {
+    padding: 20px;
+}
+.row1, .row2 {
+  background-color: #cce5ff; border-radius: 1em; margin-bottom: 10px;  
+}
+.column3, .colunm4 {
+    padding: 10px; margin: 10px;
+}
+.column3, .column1 {
+    float:left;
+}
+.colunm4, .column2 {
+    float:right;
+}
+.column1, .column2 { padding: 10px; margin:20px;
+    
+}
