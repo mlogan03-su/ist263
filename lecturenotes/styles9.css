@@ -1,0 +1,12 @@
+p {
+    text-align: center;
+    border: 2px solid #ef2345;
+}
+.margincentering {
+    border: 2px dotted #ee4567;
+    width: 30%;
+    margin: 0 auto;
+}
+.flexhack {
+    border: 2px dashed #36bffe
+} /* justify content pushes your content to center /*
