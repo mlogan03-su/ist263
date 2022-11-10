@@ -1,0 +1,60 @@
+.flexhack {
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 50px;
+}
+.flexrow {
+    padding:10px;
+    flex-basis: auto;
+    display: flex;
+} 
+aside { 
+    background-color: #f3a4cd;
+    border-radius: 1em;
+    padding:8px; justify-content: center;
+}
+
+.flexbox2 {
+    display: flex;
+    flex-basis: center;
+    padding: 20px; margin:10px
+}
+.otherskills {
+    display: flex;
+    justify-content: right;
+    padding: 20px; margin:10px;
+}
+.CAD {
+    justify-content: space-around;
+    margin: 30px;
+}
+.skill2{
+    justify-content: space-around;
+    margin: 30px;
+}
+.skill3 {
+    justify-content: space-around;
+    margin: 30px;
+}
+.skill4 {
+    justify-content: space-around;
+    padding: 30px;
+}
+.skill5{
+    justify-content: space-around;
+    padding: 30px;
+}
+
+span {
+    color:#FF006F
+}
+    @media only screen and (max-width:500px){
+        span {
+            display: none;
+        }
+        div a {
+            display:block;
+        }
+    }
