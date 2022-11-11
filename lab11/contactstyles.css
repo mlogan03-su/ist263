@@ -5,18 +5,18 @@ p {
     color: #FFFFFF;
 }
 a {
-    color: #FF006F;
+    color: #000000;
 }
 a:hover {
-    color:#FFFFFF;
+    color:#bd217e;
 }
 a:visted {
     color: #D8D8D8; 
+} 
+h2, caption {
+    color:#000000;
 }
-h1, h2, caption {
-    color:#FF006F;
-}
-nav a {
+nav a, h1 {
     color:#FF006F;
 }
 nav a:hover {
@@ -30,7 +30,7 @@ ul {
     color: #FFFFFF;
 }
 form, label, textarea, table, tr,td,th{ 
-    color: #FFFFFF;
+    color: #020000;
 }
 
 .quote {

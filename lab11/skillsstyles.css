@@ -5,6 +5,12 @@
 img {
     width: 50px;
 }
+nav {
+    color:#FF006F;
+}
+nav:visited {
+    color: #000000;
+}
 .flexrow {
     padding:10px;
     flex-basis: auto;
