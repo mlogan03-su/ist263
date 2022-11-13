@@ -1,0 +1,15 @@
+body {
+    background-color: #000000;
+}
+h1, h2, p {
+    color: #ffffff;
+}
+i, strong, ul {
+    color: #ffffff;
+}
+a, span{
+    color: #f506d5
+}
+.year {
+    display: flex
+}
