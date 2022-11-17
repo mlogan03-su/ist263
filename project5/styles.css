@@ -1,15 +1,82 @@
 body {
-    background-color: #000000;
+    background-color: #000000; 
+    font-family: sans-serif;
+    padding: 10px;
 }
-h1, h2, p {
-    color: #ffffff;
-}
-i, strong, ul {
+h1, p {
+    
     color: #ffffff;
 }
 a, span{
-    color: #f506d5
+    font-weight: bold;
+    color: #f8bb05
 }
-.year {
-    display: flex
+.scenic1, .Sound, .scenic2, .scenic3 {
+    display: flex;
+    margin-top:10px;
+    margin-left: 100px;
+    padding: 10px;
+    padding:20px; 
+    color: #ffffff;
+
+}
+.sound1, .sound2, .sound3, .sound4 {
+    display: flex;
+    margin-top:10px;
+    margin-left: 100px;
+    padding: 10px;
+    padding:20px; 
+    color: #ffffff;  
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 20px;
+}
+.work {
+    float: center; 
+    flex: 2;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin: 10px;
+}
+.other {
+    justify-content: center;
+    background-color: #ba8de1;
+    border-radius: 1em;
+    margin-top: 10px;
+    padding: 10px;
+}
+.footer{
+    margin-top: 20px;
+    padding: 20px;
+    flex: center;
+    background-color: #a90a3c;
+}
+
+label {
+    color: #f8bb05;
+}
+h2 {
+    color:#ffffff;
+    margin: 30px;
+}
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 30px;
+}
+.poster {
+    float: center;
+}
+.sender {
+    float: right;
+}
+.dlc {
+    float: left;
 }
