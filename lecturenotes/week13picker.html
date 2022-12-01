@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-UA-Compatable" content="IE-edge">
+        <meta name="viewport" content="width-device-width, inital scale=1.0"> <!--need-->
+        <title>Week 13 Javascript</title>
+        <script>
+            function changeColor() {
+                document.getElementById("thepage").style.backgroundColor = document.getElementById("picker").value
+            }
+        </script>
+    </head>
+    <body id="thepage">
+        <form>
+            <input type="color" id="picker" onchange="changeColor();">
+        </form>
+    </body>
+</html>

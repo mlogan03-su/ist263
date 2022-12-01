@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-UA-Compatable" content="IE-edge">
+        <meta name="viewport" content="width-device-width, inital scale=1.0"> <!--need-->
+        <title>Week 13 Rollover</title>
+        <!--
+            CSS
+            1.Large= no hamburger
+            2.small = show hamburger
+            these are media queries
+
+            3.Large side by side 
+            4.Small Stacked links
+            4b. hide the x 
+
+            JavaScript 
+            5. press Hamburger - show stacked nav
+            6. press x - hide stacked nav 
+            < if images are going horizontally want to size height 
+
+        -->
+        <style>
+            #hamicon {display: none;
+            width: 50px;}
+            
+            @media only screen and (max-width:800px) {
+                #hamicon {display:block;}
+                #navlinks a {display:block;}
+                #navlinks {display:none;}
+            }
+            #close {
+                display: none;
+            }
+            .row {
+                display:flex;
+            }
+        </style>
+        <script>
+            function showNav () {
+                document.getElementById ("navlinks").style.display = "block";
+            }
+            function hideNav () {
+                document.getElementById("navlinks"),style.display = "none";
+            }
+        </script>
+    </head>
+    <body>
+        <div class="row">
+            <div> <img src="https://laferger.github.io/ist263/images/hamburger.png" id="hamicon" onclick="showNav();"></div>
+            <div><p id="close" onclick="hideNav();">x</p></div>
+        </div>
+       
+        <div id="navlinks">
+            
+            <a href="index.html">Home</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </body>
+</html>
