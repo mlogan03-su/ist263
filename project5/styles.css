@@ -7,9 +7,12 @@ h1, p {
     
     color: #ffffff;
 }
-a,span {
+a {
     font-weight: bold;
-    color: #ec9be0
+    color: #ec9be0;
+}
+span {
+    color:#f8bb05;
 }
 .scenic1, .Sound, .scenic2, .scenic3 {
     display: flex;
@@ -56,7 +59,7 @@ h1 {
     justify-content: center;
     margin-top: 20px;
     padding: 20px;
-    background-color: #a90a3c;
+
 }
 
 label {
