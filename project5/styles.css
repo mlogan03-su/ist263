@@ -83,3 +83,9 @@ img {
     display: flex;
     padding: 30px; margin: 50px;
 }
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 15px;
+}
