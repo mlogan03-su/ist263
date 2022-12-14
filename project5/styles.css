@@ -75,13 +75,14 @@ h2 {
     padding: 20px;
     margin: 10px;
 }
-img {
-    width: 200px;
-}
 
+.title {
+    display:flex; justify-content: center;
+}
 .shows {
     display: flex;
-    padding: 30px; margin: 50px;
+    padding: 20px; margin: 30px;
+    justify-content: space-evenly;
 }
 .contact {
     display: flex;
