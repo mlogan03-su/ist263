@@ -90,3 +90,7 @@ h2 {
     padding: 20px;
     margin-top: 15px;
 }
+#sender,#sweeneytodd, #bloodwed, #farawayimage, #glitch {
+    display:none;
+}
+#portimages {clear:both;}

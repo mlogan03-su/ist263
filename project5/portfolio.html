@@ -10,6 +10,25 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
         <meta name="viewport" content="width-device-width, inital scale=1.0">
+        
+        <script>
+
+            function PortImagesOff () {document.getElementById('sender').styledisplay = 'none';}
+            function SenderOn () { document.getElementById.styledisplay = 'block';}
+            
+            function PortImagesOff () {document.getElementById('odddlimages').styledisplay = 'none';}
+            function OdddlImageOn () { document.getElementById.styledisplay = 'block';}
+
+            function PortImagesOff () {document.getElementById('sweeneytodd').styledisplay = 'none';}
+            function SweeneyToddOn () { document.getElementById.styledisplay = 'block';}
+
+            function PortImagesOff () {document.getElementById('bloodwed').styledisplay = 'none';}
+            function BloodWedOn () { document.getElementById.styledisplay = 'block';}
+
+            function PortImagesOff () {document.getElementById('farawayimage').styledisplay = 'none';}
+            function FarAwayImageOn () { document.getElementById.styledisplay = 'block';}
+
+        </script>
     </head>
     <body>
         <h1>Malena Logan</h1>
@@ -30,38 +49,43 @@
         <h1>Scenic Design Portfolio</h1>
         <div class="shows">
             <div class="showtitle">
-        <p>
-            <strong>Our Dear Dead Drug Lord</strong> 
+        <div id="ODDDLtitle" onclick="PortImagesOff (); OdddlImageOn();"> <p>
+            <strong>Our Dear Dead Drug Lord</strong> </p> </div>
+        <div id="sendertitle" onclick="PortImagesOff(); SenderImageOn();"> <p>
+            <strong>Sender</strong> </p></div>
             <br>
-            <strong>Sender</strong> 
+        <div>
+       <p> <u>Paper Projects</u> </p> </div>
+        <div id=Toddtitle><p>
+            Sweeney Todd </p></div>
+        <div id="bloodtitle"> <p>
+        Blood Wedding </p> </div>
+        <div id="threetitle"><p>
+        Three Sisters </p></div>
+        <div id="fartitle"><p>
+        Far Away</p></div>
+        <div id="annatitle"><p>
+        Anna in the Tropics </p></div>
             <br>
-        <strong>Working: the Musical</strong>
-            <br>
-            <br>
-        <u>Paper Projects</u>
-            <br>
-            Sweeney Todd 
-            <br>
-        Blood Wedding
-            <br>
-        Three Sisters 
-            <br>
-        Far Away
-            <br>
-        Anna in the Tropics
-            <br>
-            <br>
-        <strong>Digital Art</strong>
-            <br>
-        <strong>Other Art</strong>
+        <div id="digitalart"><p>
+        <strong>Digital Art</strong></p></div>
+        <div id="otherart"><p>
+        <strong>Other Art</strong> </p></div>
         </p>
             </div>
-            <div class="portimages">
-                <img src="../images/SENDERroof.png">
+            <div id="portimages">
+                <img src="../images/SENDER-Cast-A22482.png" alt="two men on a roof at night with skyline of chicago in the background" id="sender" onclick="SenderOn(); PortimagesOff();">
+                <img src="../images/DLC_6497.png" alt="bookshelf, three ornate rugs, dresser with american flag heart attached, and boxes" id="odddlimage" onclick = "OdddlOn(); PortImagesOff();">
+                <img src="../images/Sweeney Todd Look 2.png" alt="gray stage with large asymmetrical flats with grayscale skethes of buildings" id="sweeneytodd" onclick="SweeneyToddOn (); PortImagesOff();">
+                <img src="../images/BloodwedForrest.png" alt="green and blue scrim flats and white archways" id="bloodwed" onclick="BloodwedOn(); PortImagesdOff();" >
+                <img src="../images/Far-Away-House-Look.png" alt="percinium covered in red leaves, living room with beige walls and dark gren couch" id="farawayimage" onclick="FarAwayImageOn(); PortImagesOff();">
+                <img src="../images/Rina Sawayama Backdrop photo.jpg" alt="glitch pattern outline of Rina Sawaymas face" id="glitch" onclick="GlitchOn(); PortImagesOff();">
             </div>
         </div>
-
-
-
+<div class="footer">
+<footer><a href="mailto:malenaclogan@gmail.com">e:malenaclogan@gmail.com</a>
+    <a href="https://www.linkedin.com/in/malena-logan-b15b22230">LinkedIn</a>
+    <a href="https://instagram.com/researchdump?igshid=YmMyMTA2M2Y=">Instagram</a></footer>
+</div>
     </body>
 </html>
